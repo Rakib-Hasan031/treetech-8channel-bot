@@ -1,0 +1,16 @@
+{
+  "name": "treetech-bot-8channel",
+  "version": "2.0.0",
+  "description": "TreeTech 8-Channel Telegram Bot System - Vercel Serverless",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
